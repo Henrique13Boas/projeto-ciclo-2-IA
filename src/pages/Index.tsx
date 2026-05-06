@@ -1,14 +1,14 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">
-          Start building your amazing project here!
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+      <div className="text-center px-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
+          Aqui nasce um novo projeto
+        </h1>
+        <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+          Comece sua jornada de desenvolvimento agora mesmo
         </p>
       </div>
       <MadeWithDyad />
